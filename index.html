@@ -6,7 +6,15 @@
     <title>Nike Shoes</title>
     <link rel="shortcut icon" href="image/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="sidepanel.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
@@ -34,33 +42,70 @@
                 <i class="fa-solid fa-user"></i>
             </div>
         </nav>
-
-        <section class="main-section" id="home">
+<!-- this section is related to home page -->
+        <secion class="main-section" id="home">
             <div class="home-content">
-                <h1>Nike <span>Collection</span></h1>
-                <div class="content-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minima ullam aliquam quaerat cupiditate pariatur harum temporibus possimus eos consequuntur nobis eum ut assumenda, illum aspernatur odio iure iusto facilis sit nostrum! Aliquid officia similique id natus sed architecto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, praesentium.
+                <div class="content">
+                    <h1>Nike <p>Collection</p></h1>
+                <p class="content-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus corporis in commodi provident animi consequuntur tenetur, fugiat delectus alias deserunt illum reprehenderit dolorem harum quisquam cumque nihil et nisi.</p>
+                </div>
+                <button class="home-button">
+                    <a href="#">SHOP NOW</a>
+                    <i class="fa-solid fa-angles-right" id="btn-label"></i>
+                </button>
+            </div>
+
+
+            <div class="home-bg-img">
+                <div class="home-shoe">
+                    <!-- <div class="shoe-img"></div> -->
                 </div>
             </div>
 
-            <div class="home-img">
-                <div class="home-bg-img"></div>
-            </div>
+            <ul>
+                <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a></li>
+            </ul>
+        </secion>
 
-            <div class="home-icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-            </div>
+        <div class="side-bar">
+            <ul>
+                <li><a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="bi bi-geo-alt-fill"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-gift"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                </a></li>
+            </ul>
+
+
+            <!-- <i class="fa-solid fa-house"></i> 
+            <i class="fa-brands fa-product-hunt"></i> -->
             
-            <button>
-                <a href="shop-now">
-                    SHOP NOW
-                </a>
-                <i class="fa-solid fa-angles-right"></i>
-            </button>
-        </section>
+            
+        </div>
     </header>
 </body>
 </html>
