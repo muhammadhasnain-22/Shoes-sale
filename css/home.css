@@ -1,3 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* the styling about home section is started here */
 
@@ -17,7 +28,7 @@
 #home .home-bg-img{
     width: 45%;
     height: 100%;
-    background-image: url("images/bg-img.png");
+    background-image: url("home-images/bg-img.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -27,7 +38,7 @@
 #home .home-bg-img .home-shoe {
     width: 120%;
     height: 100%;
-    background-image: url("images/bg4-img.png");
+    background-image: url("home-images/bg4-img.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
