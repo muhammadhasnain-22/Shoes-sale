@@ -1,17 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-
-/* the styling about home section is started here */
-
 .main-section{
     padding-top: 20px;
     width: 97.5%;
@@ -19,7 +5,7 @@ html{
     margin-top: 1%;
     border-radius: 10px;
     box-shadow: 1px 4px 15px 3px rgba(138, 17, 128, 0.5);
-    height: 45vw;
+    height: 50vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +14,7 @@ html{
 #home .home-bg-img{
     width: 45%;
     height: 100%;
-    background-image: url("home-images/bg-img.png");
+    background-image: url("/home-images/bg-img.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -38,7 +24,7 @@ html{
 #home .home-bg-img .home-shoe {
     width: 120%;
     height: 100%;
-    background-image: url("home-images/bg4-img.png");
+    background-image: url("/home-images/bg4-img.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -75,9 +61,8 @@ html{
 }
 #home .home-content .content h1{
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: rgb(211, 46, 197);
-    /* font-family: serif; */
 }
 #home .home-content .content h1 span{
     font-size: 3.2rem;
@@ -89,7 +74,7 @@ html{
 
 .main-section .home-content button{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 12%;
     width: 7%;
     border: none;
@@ -122,3 +107,5 @@ html{
     font-size: 1rem;
     margin-left: 2px;
 }
+
+
