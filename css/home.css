@@ -1,0 +1,113 @@
+
+/* the styling about home section is started here */
+
+.main-section{
+    padding-top: 20px;
+    width: 97.5%;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 4px 15px 3px rgba(138, 17, 128, 0.5);
+    height: 45vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 252, 244, 0.274);
+}
+#home .home-bg-img{
+    width: 45%;
+    height: 100%;
+    background-image: url("images/bg-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .home-bg-img .home-shoe {
+    width: 120%;
+    height: 100%;
+    background-image: url("images/bg4-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-section ul {
+    list-style: none;
+    display: inline-block;
+    width: 3%;
+}
+.main-section ul li {
+    font-size: 1.2rem;
+    color: black;
+}
+.main-section ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.main-section ul li a:hover{
+    font-size: 1.025rem;
+    color: rgb(211, 46, 197);
+    transition: 0.4s;
+}
+
+#home .home-content{
+    width: 50%;
+    height: 15vw;
+}
+#home .home-content .content{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+#home .home-content .content h1{
+    display: inline-block;
+    font-size: 3.2rem;
+    color: rgb(211, 46, 197);
+    /* font-family: serif; */
+}
+#home .home-content .content h1 span{
+    font-size: 3.2rem;
+}
+#home .home-content .content-para{
+    display: inline-block;
+    text-justify: auto;
+}
+
+.main-section .home-content button{
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    width: 7%;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(189, 38, 209);
+    padding: 12px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.875);
+}
+.main-section .home-content button:hover{
+    color: white;
+    box-shadow: 0  0.5px 5px rgb(202, 44, 189);
+    box-shadow: 0  2px 7.5px rgba(167, 1, 153, 0.6); 
+    transition: 0.2s;
+}
+
+.main-section .home-content button a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.94);
+}
+.main-section .home-content button a:hover{
+    font-size: 0.9015rem;
+    color: white;
+    transition: 0.3s;
+}
+.main-section .home-content button i{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 2px;
+}
