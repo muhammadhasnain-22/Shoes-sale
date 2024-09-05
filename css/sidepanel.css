@@ -6,56 +6,60 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth
 }
-
 header > .side-bar {
-    position: fixed;
+    position: absolute;
     left: 2.5%;
     top: 25%;
-    width: 4.5%;
-    height: 52.5%;
+    width: 4.5rem;
+    height: 28rem;
     background-color: rgb(253, 253, 253);
-    box-shadow: 0 0px 5px rgb(15, 154, 209);
-    border-radius: 80px;
+    box-shadow: 0 0px 5px rgb(15, 154, 209, 0.9);
+    border-radius: 2.5rem;
 }
 header > .side-bar:hover{
-    box-shadow: 0 0 7.5px rgb(15, 154, 209);
+    box-shadow: 0 0 7.5px rgb(15, 154, 209, 0.9);
     transition: 0.2s;
 }
 
 .side-bar ul{
     list-style: none;
-    width: 100%;
-    height: 14%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.side-bar ul li a {
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .side-bar ul li{
-    width: 55px;
-    height: 55px;
+    font-size: 1.6rem;
+    height: 100%;
     border-radius: 50%;
-    margin: 25% 18%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.side-bar ul li:hover{
+.side-bar ul li a:hover{
     box-shadow: 0 1px 5px rgb(15, 154, 209);
     transition: 0.25s;
 }
-.side-bar ul li:active{
+.side-bar ul li a:active{
     box-shadow: 0 1px 5px rgb(15, 154, 209);
     transition: 0.25s;
     background-color: rgb(161, 38, 209);
 }
 .side-bar ul li a{
-    display: inline-block;
     text-decoration: none;
     color: rgb(161, 38, 209);
 }
 .side-bar ul li a:active{
     color: rgb(255, 255, 255);
     transition: 0.1s;
-}
-.side-bar ul li a i{
-    font-size: 1.6rem;
 }

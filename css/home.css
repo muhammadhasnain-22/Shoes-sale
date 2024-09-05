@@ -8,11 +8,10 @@
     height: 50vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: rgba(255, 252, 244, 0.274);
 }
 #home .home-bg-img{
-    width: 45%;
+    width: 50%;
     height: 100%;
     background-image: url("/home-images/bg-img.png");
     background-size: contain;
@@ -28,31 +27,42 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-.main-section ul {
+.main-section .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+}
+.main-section .social-icons ul {
     list-style: none;
     display: inline-block;
     width: 3%;
+    margin-right: 100%;
 }
-.main-section ul li {
+.main-section .social-icons ul li {
     font-size: 1.2rem;
     color: black;
 }
-.main-section ul li a{
-    font-size: 1rem;
+.main-section .social-icons ul li a{
     text-decoration: none;
     color: black;
     margin: auto;
 }
-.main-section ul li a:hover{
-    font-size: 1.025rem;
+.main-section .social-icons ul li a:hover{
+    cursor: pointer;
     color: rgb(211, 46, 197);
+    transition: 0.4s;
+}
+.main-section .social-icons ul li a:active{
+    color: rgb(163, 34, 152);
     transition: 0.4s;
 }
 
 #home .home-content{
     width: 50%;
     height: 15vw;
+    display: flex;
+    padding: 7.5rem;
 }
 #home .home-content .content{
     width: 50%;
@@ -61,11 +71,19 @@
 }
 #home .home-content .content h1{
     display: inline-block;
-    font-size: 4rem;
+    font-size: 6rem;
     color: rgb(211, 46, 197);
+    font-family: Mynerve, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    background: linear-gradient(to right, #e837ff, #7337ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-#home .home-content .content h1 span{
-    font-size: 3.2rem;
+.home-content .content h1 span{
+    font-weight: 400;
+    font-size: 5rem;
+    font-style: normal;
 }
 #home .home-content .content-para{
     display: inline-block;
@@ -74,20 +92,19 @@
 
 .main-section .home-content button{
     position: absolute;
-    bottom: 10%;
-    left: 12%;
-    width: 7%;
+    bottom: 15%;
+    left: 15%;
+    width: 9rem;
     border: none;
     border-radius: 40px;
-    background-color: rgb(189, 38, 209);
-    padding: 12px;
+    background: linear-gradient(to right, #e837ff, #7337ff);
+    padding: 0.75rem;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.875);
 }
 .main-section .home-content button:hover{
     color: white;
-    box-shadow: 0  0.5px 5px rgb(202, 44, 189);
-    box-shadow: 0  2px 7.5px rgba(167, 1, 153, 0.6); 
+    box-shadow: 0  1px 5px rgb(202, 44, 189, 0.8);
     transition: 0.2s;
 }
 
@@ -98,14 +115,17 @@
     color: rgba(255, 255, 255, 0.94);
 }
 .main-section .home-content button a:hover{
-    font-size: 0.9015rem;
+    font-size: 0.93rem;
     color: white;
-    transition: 0.3s;
+    transition: 0.4s ease-in-out;
+    transform: translateX(0.2rem);
 }
 .main-section .home-content button i{
     text-decoration: none;
     font-size: 1rem;
     margin-left: 2px;
 }
-
-
+.main-section .home-content button:hover i{
+    transform: translateX(0.35rem);
+    transition: 0.3s;
+}
