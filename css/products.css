@@ -137,6 +137,7 @@ main #products h2 {
     font-size: 4.5rem; /* Reduced from 5rem */
     font-weight: 600;
     background: linear-gradient(to right, #e837ff, #7337ff);
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 18%; /* Reduced from 20% */
