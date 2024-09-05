@@ -194,7 +194,7 @@ main #products .product-boxes {
 
 .product-boxes .box .image {
     width: 90%;
-    height: 26vh; /* Reduced from 30vh */
+    height: 24vh; /* Reduced from 30vh */
     margin: auto;
     background-color: rgba(252, 169, 44, 0.226);
     border-radius: 0.875rem; /* Reduced from 1rem */
@@ -256,4 +256,44 @@ main #products .product-boxes {
 .box .buttons .shop {
     color: aliceblue;
     background-color: brown;
+}
+
+
+/* frome here information about individual product is started  */
+
+.product-boxes .box-one .image-1 {
+    width: 90%;
+    height: 26.8vh;
+     /* Reduced from 30vh */
+    margin: auto;
+    border-radius: 0.875rem;
+     /* Reduced from 1rem */
+    /* background-color: rgba(252, 169, 44, 0.226); */
+    background-image: url("/images/bg1-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-boxes .box-one .image-2 {
+    width: 90%;
+    height: 27vh;
+     /* Reduced from 30vh */
+    margin: auto;
+    border-radius: 0.875rem;
+     /* Reduced from 1rem */
+    /* background-color: rgba(252, 169, 44, 0.226); */
+    background-image: url("/images/bg2-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-boxes .box-one .image-3 {
+    width: 90%;
+    height: 26vh;
+     /* Reduced from 30vh */
+    margin: auto;
+    border-radius: 0.875rem;
+     /* Reduced from 1rem */
+    /* background-color: rgba(252, 169, 44, 0.226); */
+    background-image: url("/images/bg3-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
