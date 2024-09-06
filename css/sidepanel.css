@@ -31,8 +31,8 @@ header > .side-bar:hover{
     align-items: stretch;
 }
 .side-bar ul li a {
-    width: 2rem;
-    height: 100%;
+    width: 4rem;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -157,13 +157,14 @@ main #products .product-boxes {
 .box {
     width: 18%; /* Reduced from 20.5% */
     margin: 1.5%; /* Reduced from 1% */
-    border-radius: 0.875rem; /* Reduced from 1rem */
+    border-radius: 0.25rem; /* Reduced from 1rem */
     background-color: rgb(247, 253, 255);
-    box-shadow: 1px 3px 13px 3px rgba(41, 11, 38, 0.175);
+    box-shadow: 1px 4px 15px 3px rgba(138, 17, 128, 0.3);
 }
 
 .box:hover {
     box-shadow: 1px 3px 13px 3px rgba(44, 5, 41, 0.225);
+    box-shadow: 1px 4px 15px 3px rgba(138, 17, 128, 0.4);
     transition: 0.2s ease; /* Reduced from 0.4s */
 }
 
@@ -190,6 +191,16 @@ main #products .product-boxes {
     font-size: 1.5rem; /* Reduced from 1.75rem */
     font-weight: 600;
     color: rgb(83, 83, 83);
+    transform: translateY(-1rem);
+    opacity: 0;
+}
+.products .product-boxes .box:hover .small-icons i {
+    transition: 0.4s;
+    transform: translateY(0.2rem);
+    opacity: 1;
+}
+.products .product-boxes .box .small-icons i:hover {
+    color: #e837ff;
 }
 
 .product-boxes .box .image {
@@ -226,13 +237,14 @@ main #products .product-boxes {
     width: 80%;
     margin: auto;
     padding: 0 0 0.875rem 0; /* Reduced from 1rem */
-    color: gold;
+    color: rgb(255, 212, 19);
     display: flex;
     justify-content: center;
 }
 
 .box .stars i {
     padding: 0.875%; /* Reduced from 1% */
+    font-weight: bold;
 }
 
 .box .buttons {
@@ -245,7 +257,7 @@ main #products .product-boxes {
     text-decoration: none;
     color: rgb(35, 54, 71);
     padding: 0.4rem; /* Reduced from 0.5rem */
-    border-radius: 0.35rem; /* Reduced from 0.4rem */
+    border-radius: 0.2rem; /* Reduced from 0.4rem */
 }
 
 .box .buttons .cart {
@@ -262,38 +274,43 @@ main #products .product-boxes {
 /* frome here information about individual product is started  */
 
 .product-boxes .box-one .image-1 {
-    width: 90%;
+    width: 85%;
     height: 26.8vh;
-     /* Reduced from 30vh */
+    /* Reduced from 30vh */
     margin: auto;
     border-radius: 0.875rem;
-     /* Reduced from 1rem */
-    /* background-color: rgba(252, 169, 44, 0.226); */
+    border-radius: 0.5rem;
+    /* Reduced from 1rem */
     background-image: url("/images/bg1-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.product-boxes .box-one .image-2 {
-    width: 90%;
+
+/* .product-boxes .box-one .image-2 {
+    width: 85%;
     height: 27vh;
-     /* Reduced from 30vh */
     margin: auto;
     border-radius: 0.875rem;
-     /* Reduced from 1rem */
-    /* background-color: rgba(252, 169, 44, 0.226); */
+    border-radius: 0.25rem;
     background-image: url("/images/bg2-img.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
-.product-boxes .box-one .image-3 {
-    width: 90%;
+} */
+/* .product-boxes .box-one .image-3 {
+    width: 85%;
     height: 26vh;
-     /* Reduced from 30vh */
     margin: auto;
-    border-radius: 0.875rem;
-     /* Reduced from 1rem */
-    /* background-color: rgba(252, 169, 44, 0.226); */
-    background-image: url("/images/bg3-img.png");
+    border-radius: 0.25rem;
+    background-image: url("/images/bg1-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+} */
+
+.product-boxes .box:hover .image-2 {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.product-boxes .box:hover .image-1 {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
