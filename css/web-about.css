@@ -1,0 +1,100 @@
+.title {
+    padding: 2rem 0;
+    width: 20%;
+    margin: auto;
+    font-size: 2rem;
+    background-clip: border-box;
+    background: linear-gradient(to right, #e837ff, #7337ff);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-material {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-material .images {
+    width: 10.8%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.15rem solid #7337ff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 4px 2px #7337ffb4;
+}
+.about-material .images:hover {
+    box-shadow: 0px 0px 4px 2px #7337ff;
+    transition: 0.3s;
+}
+
+.about-material .image1 {
+    width: 90%;
+    height: 22%;
+    margin: 5%;
+    border-radius: 4%;
+    background-color: #7337ff;
+    background-image: url("/images/bg4-img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px 3px #7337ff7c;
+}
+.about-material .image1:hover {
+    box-shadow: 0px 0px 5px 3px #7337ffab;
+    transition: 0.3s ease;
+}
+
+.about-material .image {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.15rem solid #e837ff;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 2px #e837ffa1;
+}
+.about-material .image:hover {
+    box-shadow: 0px 0px 10px 2px #e837ffea;
+    transition: 0.3s;
+}
+
+.about-material .image .full-image {
+    width: 89%;
+    height: 90%;
+    background-image: url(/images/bg1-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+.about-material .image:hover .full-image {
+    transform: scale(1.02);
+    transform: 0.2s;
+    transition: 0.3s;
+}
+
+.about-material .web-para {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid orange; */
+    border: 0.15rem solid #7337ff;
+    border-radius: 01rem;
+    box-shadow: 0px 0px 10px 2px #7337ff98;
+}
+.about-material .web-para:hover {
+    box-shadow: 0px 0px 10px 2px #7337ffe0;
+    transition: 0.3s;
+}
+.about-material .web-para p {
+    width: 90%;
+    display: inline-block;
+    text-align: justify;
+}
