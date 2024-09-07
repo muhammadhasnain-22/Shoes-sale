@@ -95,6 +95,8 @@
 }
 .about-material .web-para p {
     width: 90%;
+    font-size: 1.025rem;
+    color: rgb(83, 40, 119);
     display: inline-block;
     text-align: justify;
 }
