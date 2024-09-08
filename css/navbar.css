@@ -72,6 +72,10 @@ header nav .nav-icons {
 header nav .nav-icons i{
     font-size: 1.25rem;
 }
+header nav .nav-icons a i{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
 header nav .nav-icons i:hover{
     cursor: pointer;
     font-size: 1.255rem;
