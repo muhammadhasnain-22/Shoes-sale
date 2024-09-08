@@ -3,7 +3,6 @@ main #review {
     margin: auto;
 }
 
-
 main #review .title {
     font-size: 2rem;
     width: 30%;
@@ -14,7 +13,6 @@ main #review .title {
     width: 95%;
     display: flex;
     justify-content: space-around;
-    /* justify-content:unsafe; */
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
@@ -22,7 +20,7 @@ main #review .title {
 
 
 .review .review-boxes .rbox {
-    width: 23%;
+    width: 29%;
     border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
@@ -40,7 +38,7 @@ main #review .title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 50%;
 }
 .rbox .intro .img{
     width: 4rem;
@@ -64,6 +62,7 @@ main #review .title {
 
 .review .review-boxes .rbox .para {
     display: inline-block;
+    padding-top: 4%;
 }
 .review .review-boxes .rbox .para p{
     font-size: 0.8rem;
@@ -71,8 +70,7 @@ main #review .title {
     text-align: justify;
 }
 
-.review .review-boxes .rbox .stars{
-    padding: 5%;
+.review .review-boxes .rbox .intro .name .stars{
     display: flex;
     width: 47%;
     align-items: center;
@@ -80,16 +78,8 @@ main #review .title {
 }
 
 .review .review-boxes .rbox .stars i{
+    padding: 4%;
     font-weight: bold;
     font-size: 1.2rem;
     color: rgb(255, 174, 0);
-}
-
-.review .review-boxes .rbox:hover .stars i{
-    transform: scale(1.1);
-    transition: 0.35s;
-}
-.review .review-boxes .rbox .stars .last-star i{
-    font-weight: lighter;
-    font-size: 1rem;
 }

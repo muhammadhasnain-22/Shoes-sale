@@ -39,7 +39,7 @@
     margin: 5%;
     border-radius: 4%;
     background-color: #7337ff;
-    background-image: url("/images/bg4-img.jpg");
+    background-image: url("/images/shoe-4\(ii\).jpg");
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 5px 3px #7337ff7c;
@@ -67,7 +67,7 @@
 .about-material .image .full-image {
     width: 89%;
     height: 90%;
-    background-image: url(/images/bg1-img.jpg);
+    background-image: url("/images/shoe-4\(i\).jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 0.5rem;
@@ -84,7 +84,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid orange; */
     border: 0.15rem solid #7337ff;
     border-radius: 01rem;
     box-shadow: 0px 0px 10px 2px #7337ff98;

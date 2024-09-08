@@ -13,7 +13,7 @@
 #home .home-bg-img{
     width: 50%;
     height: 100%;
-    background-image: url("/home-images/bg-img.png");
+    background-image: url("/home-images/home-img1.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -23,7 +23,7 @@
 #home .home-bg-img .home-shoe {
     width: 120%;
     height: 100%;
-    background-image: url("/home-images/bg4-img.png");
+    background-image: url("/home-images/home-img2.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
