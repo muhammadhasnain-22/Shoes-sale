@@ -1,0 +1,100 @@
+main .services {
+    width: 100%;
+    height: 60vh;
+}
+
+.services .title {
+    width: 17%;
+    margin: auto;
+    padding: 4% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevices .title h2 {
+    font-size: 4.5rem; 
+    font-weight: 600;
+    background: linear-gradient(to right, #e837ff, #7337ff);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services .process {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* delivery  */
+.services .process .delivery{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .process .delivery i{
+    font-size: 4rem;
+    color: rgb(236, 203, 14);
+    color: rgb(255, 171, 45);
+    padding-bottom: 10%;
+}
+.services .process .delivery strong{
+    font-size: 1.2rem;
+    color: #1f0066;
+}
+.services .process .delivery p{
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: 550;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+/* replacement  */
+.services .process .replacement{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .process .replacement i{
+    font-size: 4rem;
+    color: rgb(236, 203, 14);
+    color: rgb(255, 171, 45);
+    padding-bottom: 10%;
+}
+.services .process .replacement strong{
+    font-size: 1.2rem;
+    color: #1f0066;
+}
+.services .process .replacement p{
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: 550;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+/* support  */
+.services .process .support{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .process .support i{
+    font-size: 4rem;
+    color: rgb(236, 203, 14);
+    color: rgb(255, 171, 45);
+    padding-bottom: 10%;
+}
+.services .process .support strong{
+    font-size: 1.2rem;
+    color: #1f0066;
+}
+.services .process .support p{
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: 550;
+    font-size: 0.8rem;
+    text-align: justify;
+}
