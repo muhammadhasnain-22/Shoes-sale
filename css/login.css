@@ -7,7 +7,7 @@ main .login {
 }
 
 main .login .left{
-    width: 55%;
+    width: 50%;
     height: 90vh;
 }
 main .login .left .img{
@@ -21,11 +21,20 @@ main .login .left .img{
     justify-content: flex-start;
     flex-direction: column;
 }
-main .login .left .img h2 {
-    height: 16vh;
-    width: 49%;
-    display: inline-block;
-    font-size: 6rem;
+main .login .left .img .title {
+    height: 18vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #7337ffb0;
+    border-radius: 1rem;
+    margin: 30% 0 35% 5%;
+}
+main .login .left .img .title h2 {
+    height: 100%;
+    width: 85%;
+    font-size: 5rem;
     font-family: Mynerve, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-style: italic;
@@ -33,9 +42,6 @@ main .login .left .img h2 {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 30% 0 30% 5%;
-    box-shadow: 1px 1px 10px 1px #7337ffb0;
-    border-radius: 1rem;
 }
 main .login .left .img h2:hover {
     box-shadow: 1px 1px 12px 4px #7337ff7e;
@@ -73,8 +79,266 @@ main .login .left .img .social-icons ul li:active a i{
 
 }
 
+/* form     */
 main .login .right{
-    width: 53%;
+    width: 45%;
+    height: 90vh;
+    background-image: url("/login-images/img-right.png");
+    background-size: contain;
+    border: 2px solid blue;
+    border-radius: 1rem;
+}
+main .login .right h2{
+    font-size: 3rem;
+    width:100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .login .right .form .login-form {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+main .login .right .form .login-form label{
+    width: 40%;
+    height: 5vh;
+    box-shadow: 1px 1px 10px 4px #1f006863;
+    background-color:  #1f006863;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+main .login .right .form .login-form .name input{
+    border: none;
+    background-color: none;
+    outline: none;
+    background: none;
+    width: 80%;
+    padding: 1%;
+    color: white;
+}
+main .login .right .form .login-form .email input{
+    border: none;
+    background-color: none;
+    outline: none;
+    background: none;
+    width: 80%;
+    padding: 1%;
+    color: white;
+}
+main .login .right .form .login-form .password input{
+    border: none;
+    background-color: none;
+    outline: none;
+    background: none;
+    width: 80%;
+    padding: 1%;
+    color: white;
+}
+
+main .login .right .form .login-form button {
+    height: 2rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color:  #1f0068f3;
+    color: rgb(238, 238, 238);
+    font-size: 1.15rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 10px 4px #1f006863;
+    
+}
+main .login .right .form .login-form button:hover {
+    cursor: pointer;
+}
+main .login .right .form .login-form button:active {
+    transform: scale(1.015);
+    background-color:  #1d0061;
+    box-shadow: 1px 1px 8px 3px #1f006863;
+    color: rgb(255, 254, 234);
+    
+}
+
+
+
+
+main .login .right .form .login-form .name i{
+    font-size: 1.1rem;
+    color: #e837ff;
+}
+main .login .right .form .login-form .email i{
+    font-size: 1.1rem;
+    color: #e837ff;
+}
+main .login .right .form .login-form .password i{
+    font-size: 1.1rem;
+    color: #e837ff;
+}
+
+
+
+
+
+main .login .right .form .login-form .name{
+    margin: 2% 0 0;
+}
+main .login .right .form .login-form .email{
+    margin: 2% 0 0;
+}
+main .login .right .form .login-form .password{
+    margin: 2% 0 0;
+}
+
+
+
+
+
+main .login .right .hori-line {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main .login .right .hori-line .or{
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+main .login .right .hori-line .linel {
+    width: 45%;
+    height: 0.5vh;
+    background-color: #7337ff;
+    border-radius: 1rem;
+}
+main .login .right .hori-line .liner {
+    width: 45%;
+    height: 0.5vh;
+    background-color: #7337ff;
+    border-radius: 1rem;
+}
+
+/* link with icons  */
+
+.link-with {
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    height: 12vh;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px 4px rgb(16, 3, 196);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* google  */
+.link-with .google {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: rgba(247, 247, 247, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-with .google:active {
+    box-shadow: 1px 1px 4px 5px rgb(16, 3, 196);
+    transform: scale(1.04);
+    transition: 0.15s;
+}
+.link-with .google a{
+    width: 100%;
     height: 100%;
-    background-color: rgb(49, 161, 128);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-with .google a .img{
+    width: 95%;
+    height: 95%;
+    background-image: url("/link-with-images/google.png");
+    background-size: contain;
+}
+
+
+/* fb  */
+.link-with .fb {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: rgba(247, 247, 247, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-with .fb a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-with .fb:active {
+    box-shadow: 1px 1px 4px 5px rgb(16, 3, 196);
+    transform: scale(1.04);
+    transition: 0.15s;
+}
+.link-with .fb a .img{
+    width: 65%;
+    height: 65%;
+    background-image: url("/link-with-images/fb.png");
+    background-size: contain;
+}
+
+
+/* x  */
+.link-with .twitter {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: rgb(215, 236, 255);
+    background-color: rgba(247, 247, 247, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-with .twitter:active {
+    box-shadow: 1px 1px 4px 5px rgb(16, 3, 196);
+    transform: scale(1.04);
+    transition: 0.15s;
+}
+.link-with .twitter a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-with .twitter a .img{
+    width: 65%;
+    height: 65%;
+    background-image: url("/link-with-images/twitter.png");
+    background-size: contain;
 }
