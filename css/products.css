@@ -156,10 +156,10 @@ main #products .product-boxes {
 }
 
 .product-boxes .box:hover .image-2 {
-    transform: scale(1.05);
+    transform: scale(1.015);
     transition: 0.3s;
 }
 .product-boxes .box:hover .image-1 {
-    transform: scale(1.05);
+    transform: scale(1.015);
     transition: 0.3s;
 }
