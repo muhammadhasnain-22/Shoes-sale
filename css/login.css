@@ -79,13 +79,16 @@ main .login .left .img .social-icons ul li:active a i{
 
 }
 
+
+/* right         */
+
 /* form     */
 main .login .right{
-    width: 45%;
+    width: 46%;
     height: 90vh;
     background-image: url("/login-images/img-right.png");
     background-size: contain;
-    border: 2px solid blue;
+    border: 2px solid rgba(0, 0, 255, 0.699);
     border-radius: 1rem;
 }
 main .login .right h2{
@@ -118,7 +121,7 @@ main .login .right .form .login-form label{
 }
 
 
-
+/* input    */
 
 main .login .right .form .login-form .name input{
     border: none;
@@ -148,33 +151,6 @@ main .login .right .form .login-form .password input{
     color: white;
 }
 
-main .login .right .form .login-form button {
-    height: 2rem;
-    width: 40%;
-    margin: auto;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    background-color:  #1f0068f3;
-    color: rgb(238, 238, 238);
-    font-size: 1.15rem;
-    border: none;
-    outline: none;
-    border-radius: 0.25rem;
-    box-shadow: 1px 1px 10px 4px #1f006863;
-    
-}
-main .login .right .form .login-form button:hover {
-    cursor: pointer;
-}
-main .login .right .form .login-form button:active {
-    transform: scale(1.015);
-    background-color:  #1d0061;
-    box-shadow: 1px 1px 8px 3px #1f006863;
-    color: rgb(255, 254, 234);
-    
-}
-
-
 
 
 main .login .right .form .login-form .name i{
@@ -192,8 +168,6 @@ main .login .right .form .login-form .password i{
 
 
 
-
-
 main .login .right .form .login-form .name{
     margin: 2% 0 0;
 }
@@ -203,6 +177,37 @@ main .login .right .form .login-form .email{
 main .login .right .form .login-form .password{
     margin: 2% 0 0;
 }
+
+
+
+
+/* button  */
+main .login .right .form .login-form button {
+    height: 2rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color:  #1f0068f3;
+    color: rgb(238, 238, 238);
+    font-size: 1.15rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 10px 4px #1f006863;
+    
+}    
+main .login .right .form .login-form button:hover {
+    cursor: pointer;
+}    
+main .login .right .form .login-form button:active {
+    transform: scale(1.015);
+    background-color:  #1d0061;
+    box-shadow: 1px 1px 8px 3px #1f006863;
+    color: rgb(255, 254, 234);
+    
+}    
+
 
 
 
