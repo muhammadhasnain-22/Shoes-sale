@@ -27,6 +27,7 @@ main #review .title {
     margin: 1%;
     padding: 1.2%;
     box-shadow: 0px 0px 10px 2px #68138aa4;
+    backdrop-filter: blur(2px);
 }
 .review .review-boxes .rbox:hover {
     box-shadow: 0px 0px 10px 2px #1b0125;

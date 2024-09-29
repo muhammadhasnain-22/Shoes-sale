@@ -30,6 +30,7 @@ main .login .left .img .title {
     box-shadow: 1px 1px 10px 1px #7337ffb0;
     border-radius: 1rem;
     margin: 30% 0 35% 5%;
+    backdrop-filter: blur(2px);
 }
 main .login .left .img .title h2 {
     height: 100%;
@@ -88,6 +89,7 @@ main .login .right{
     height: 90vh;
     background-image: url("/login-images/img-right.png");
     background-size: contain;
+    backdrop-filter: blur(50px);
     border: 2px solid rgba(0, 0, 255, 0.699);
     border-radius: 1rem;
 }
@@ -247,7 +249,8 @@ main .login .right .hori-line .liner {
     margin-top: 5%;
     height: 12vh;
     border-radius: 1rem;
-    box-shadow: 1px 1px 10px 4px rgb(16, 3, 196);
+    box-shadow: .1px .1px 12px 1px rgb(16, 3, 196);
+    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -50,11 +50,11 @@
 }
 .main-section .social-icons ul li a:hover{
     cursor: pointer;
-    color: rgb(211, 46, 197);
+    color: var(--pink);
     transition: 0.4s;
 }
 .main-section .social-icons ul li a:active{
-    color: rgb(163, 34, 152);
+    color: var(--pink);
     transition: 0.4s;
 }
 
@@ -72,11 +72,11 @@
 #home .home-content .content h1{
     display: inline-block;
     font-size: 6rem;
-    color: rgb(211, 46, 197);
+    color: var(--pink);
     font-family: Mynerve, 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-style: italic;
-    background: linear-gradient(to right, #e837ff, #7337ff);
+    background: linear-gradient(to right, var(--pink), var(--purple));
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,13 +98,13 @@
     width: 9rem;
     border: none;
     border-radius: 40px;
-    background: linear-gradient(to right, #e837ff, #7337ff);
+    background: linear-gradient(to right, var(--pink), var(--purple));
     padding: 0.75rem;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.875);
+    color: var(--white);
 }
 .main-section .home-content button:hover{
-    color: white;
+    color: var(--white);
     box-shadow: 0  1px 5px rgb(202, 44, 189, 0.8);
     transition: 0.2s;
 }
@@ -113,7 +113,7 @@
     font-size: 0.9rem;
     font-weight: 500;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.94);
+    color: var(--white);
 }
 .main-section .home-content button a:hover{
     font-size: 0.93rem;
