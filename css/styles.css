@@ -16,6 +16,6 @@ html{
 
 :root {
     --purple: #7337ff;
-    --pink: #7337ff;
+    --pink: rgb(211, 46, 197);
     --white: rgba(240, 240, 240, 0.952);
 }
